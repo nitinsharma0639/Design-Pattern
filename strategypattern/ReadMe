@@ -1,0 +1,2 @@
+Credit Card : curl --location --request POST 'http://localhost:8080/payment/pay?paymentType=creditCardPayment&amount=250.75'
+Pay Pal: curl --location --request POST 'http://localhost:8080/payment/pay?paymentType=payPalPayment&amount=250.75'
